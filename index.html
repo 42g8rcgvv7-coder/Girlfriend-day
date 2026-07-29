@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Girlfriend Day ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:'Poppins',sans-serif;
+
+}
+
+body{
+
+background:linear-gradient(135deg,#ff4b8b,#ff8fab,#ffc2d1);
+
+overflow-x:hidden;
+
+color:white;
+
+}
+
+#loader{
+
+position:fixed;
+
+width:100%;
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+background:#ff4b8b;
+
+z-index:9999;
+
+transition:1s;
+
+}
+
+#loader h1{
+
+font-size:45px;
+
+font-family:'Great Vibes',cursive;
+
+}
+
+#loader p{
+
+margin-top:10px;
+
+font-size:18px;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+font-family:'Great Vibes',cursive;
+
+}
+
+.hero p{
+
+margin-top:15px;
+
+font-size:22px;
+
+}
+
+button{
+
+margin-top:40px;
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+background:white;
+
+color:#ff4b8b;
+
+cursor:pointer;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.1);
+
+}
+
+.hidden{
+
+display:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<h1>Happy Girlfriend Day ❤️</h1>
+
+<p>Loading our love story...</p>
+
+</div>
+
+<section class="hero">
+
+<h1>Arafat ❤️ Prionty</h1>
+
+<p>Together Since 3 November 2025</p>
+
+<button onclick="startWebsite()">
+
+Open My Heart ❤️
+
+</button>
+
+</section>
+
+<script>
+
+setTimeout(()=>{
+
+document.getElementById("loader").style.opacity="0";
+
+setTimeout(()=>{
+
+document.getElementById("loader").style.display="none";
+
+},1000);
+
+},2500);
+
+function startWebsite(){
+
+alert("Welcome My Love ❤️");
+
+}
+
+</script>
+
+</body>
+
+</html>
