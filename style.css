@@ -1,3 +1,5 @@
+
+
 /* ===========================
 
    Happy Girlfriend Day
@@ -401,6 +403,37 @@ height:90px;
 
 .time-box span{
 front-size:px;
+}
+
+}
+.slide{
+
+display:none;
+
+}
+
+.slide.active{
+
+display:block;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-50px) rotate(0deg);
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+opacity:0;
+
 }
 
 }
