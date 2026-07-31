@@ -402,19 +402,41 @@ height:90px;
 }
 
 .time-box span{
-front-size:px;
+front-size:28px;
 }
 
 }
+.slider{
+
+    width:100%;
+
+    max-width:400px;
+
+    margin:40px auto;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+}
+
 .slide{
 
-display:none;
+    display:none;
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+    border-radius:20px;
 
 }
 
 .slide.active{
 
-display:block;
+    display:block;
 
 }
 
